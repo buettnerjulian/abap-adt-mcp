@@ -80,7 +80,7 @@ Before diving in, ensure you have:
 
 - **SAP ABAP System Access**
 
-  - System URL (e.g., `https://sap-system.company.com:8000`)
+  - System URL (e.g., `https://sap-system.company.com:44300`)
   - Valid credentials (username/password)
   - Client number (e.g., `100`)
   - ADT services activated in `SICF` transaction
@@ -120,7 +120,7 @@ Create a `.env` file in the project root with your SAP system details:
 
 ```env
 # SAP System Configuration
-SAP_URL=https://your-sap-system.com:8000
+SAP_URL=https://your-sap-system.com:44300
 SAP_USERNAME=your_username
 SAP_PASSWORD="your_password"  # Use quotes if password contains special characters
 SAP_CLIENT=100
@@ -143,7 +143,7 @@ Launch the server with the MCP Inspector for interactive testing:
 npm run dev
 ```
 
-This opens a browser interface at `http://localhost:5173` where you can:
+This opens a browser interface at `http://localhost:6274` where you can:
 
 - Test individual tools
 - Inspect requests/responses
